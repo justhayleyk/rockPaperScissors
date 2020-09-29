@@ -2,9 +2,49 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	margin: 0;
 	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: darkgrey;
+	text-align: center;
+	padding: 2em;
+}
+
+main {
+	background-color: green;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.counter {
+	text-align: center;
+}
+
+.tags {
+	background-color: red;
+	width: 100px;
+	border-radius: 5px;
+	margin: 1em auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.user {
+	float: left;
+}
+
+.computer {
+	float: right;
+}
+
+.score {
+	border: 2px solid black;
+	padding: 2em;
+	margin: 0 500px;
 }
